@@ -52,3 +52,17 @@
 @media(max-width:650px){
   .hero-emblem{width:150px;height:150px;right:-26px;top:-28px;opacity:.82}
 }
+
+
+/* V6 — Music field background only */
+.field-card.field-music{
+  aspect-ratio:1 / 1;
+  min-height:0;
+  background-color:#0b1421;
+  background-image:
+    linear-gradient(180deg,rgba(7,13,22,.30) 0%,rgba(7,13,22,.82) 100%),
+    url("../Assets/Images/GN_Stage.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
